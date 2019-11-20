@@ -1,0 +1,6 @@
+exercice D'algorithme
+
+ecrire un algorithme qui demande a l'utilisateur d'entré un nombre
+si le nombre est paire,on le multiplie par les nombres impaire compris entre 0 et 30
+si le nombre est impaire on le multiplie par les nombres paire compris entre 0 et 30
+si le nombre n'est ni paire et impaire on retourne le nombre
