@@ -1,3 +1,5 @@
+const view=document.querySelector('p')
+
 var nb=prompt('entre un nombre svp');
 /*let paire;
     for(var i=0;i<=30;i++){
@@ -16,5 +18,5 @@ var nb=prompt('entre un nombre svp');
 */
 let x = (nb+1)%2;
 for (let j=x;j<=30;j+=2){
-    console.log(nb+'*'+j+'='+nb*j)
+    view.innerHTML+=nb+'*'+j+'='+nb*j+'<br>'
 }
